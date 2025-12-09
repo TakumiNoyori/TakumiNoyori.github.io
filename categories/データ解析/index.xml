@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>データ解析 on Takumi Noyori</title><link>https://TakumiNoyori.github.io./categories/%E3%83%87%E3%83%BC%E3%82%BF%E8%A7%A3%E6%9E%90/</link><description>Recent content in データ解析 on Takumi Noyori</description><generator>Hugo</generator><language>ja</language><copyright>Takumi Noyori</copyright><lastBuildDate>Sun, 07 Dec 2025 18:43:26 +0900</lastBuildDate><atom:link href="https://TakumiNoyori.github.io./categories/%E3%83%87%E3%83%BC%E3%82%BF%E8%A7%A3%E6%9E%90/index.xml" rel="self" type="application/rss+xml"/><item><title>Matplotlib</title><link>https://TakumiNoyori.github.io./p/matplotlib/</link><pubDate>Sun, 07 Dec 2025 18:43:26 +0900</pubDate><guid>https://TakumiNoyori.github.io./p/matplotlib/</guid><description>&lt;h1 id="matplotlib備忘録"&gt;Matplotlib備忘録&lt;/h1&gt;
+&lt;h2 id="フォントの設定"&gt;フォントの設定&lt;/h2&gt;
+&lt;p&gt;論文の図では基本的にArialを使用すればOK。&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;span class="lnt"&gt;2
+&lt;/span&gt;&lt;span class="lnt"&gt;3
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;plt.rcParams[&amp;#39;font.family&amp;#39;]= &amp;#39;sans-serif&amp;#39;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;plt.rcParams[&amp;#39;font.sans-serif&amp;#39;] = [&amp;#39;Arial&amp;#39;]
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;plt.rcParams[&amp;#39;font.size&amp;#39;] = 16
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h2 id="解像度の設定"&gt;解像度の設定&lt;/h2&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;plt.rcParams[&amp;#34;figure.dpi&amp;#34;] = 200
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;適宜更新します。&lt;/p&gt;</description></item></channel></rss>
